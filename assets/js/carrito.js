@@ -21,7 +21,7 @@ function crearProductoEnCarrito(producto, index) {
     card.classList.add("col-12", "mb-2");
 
     card.innerHTML = `
-    <div class="card text-bg-secondary">
+    <div class="card text-bg-secondary cardHover">
         <div class="row g-0 align-items-center">
             <div class="col-md-2 p-2 text-center">
                 <img src="../assets/img/${producto.imagen}" class="img-fluid rounded">

@@ -61,7 +61,7 @@ const crearCardProducto = (producto) => {
     card.classList.add("col");
 
     card.innerHTML = `
-        <div class="card h-100 text-bg-secondary">
+        <div class="card cardHover h-100 text-bg-secondary">
             <img src="./assets/img/${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title text-dark">$ ${producto.precio}</h5>

@@ -1,12 +1,21 @@
 body {
-background: -webkit-linear-gradient(90deg, #0b0b10,#200b0b);
-background: linear-gradient(90deg, #0b0b10,#200b0b);
-padding-top: 200px;
+    background: -webkit-linear-gradient(90deg, #0b0b10, #200b0b);
+    background: linear-gradient(90deg, #0b0b10, #200b0b);
+    padding-top: 200px;
 }
 
-.logoHeader{
+.logoHeader {
     width: 200px;
     height: auto;
     transform: scale(1.5);
-    transform-origin: left center ;
+    transform-origin: left center;
+}
+
+.cardHover:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
+
+.cardHover {
+    transition: all 0.3s ease-in-out;
 }
