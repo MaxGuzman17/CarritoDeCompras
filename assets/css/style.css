@@ -1,0 +1,12 @@
+body {
+background: -webkit-linear-gradient(90deg, #0b0b10,#200b0b);
+background: linear-gradient(90deg, #0b0b10,#200b0b);
+padding-top: 200px;
+}
+
+.logoHeader{
+    width: 200px;
+    height: auto;
+    transform: scale(1.5);
+    transform-origin: left center ;
+}
